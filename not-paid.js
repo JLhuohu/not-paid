@@ -12,7 +12,7 @@
 	
 	if(days > 0) {
 		var days_late = days_deadline-days;
-		var opacity = (days_late*100/days_deadline)/100;
+		var opacity = (days_late*100/days_deadline)/101;
 			opacity = (opacity < 0) ? 0 : opacity;
 			opacity = (opacity > 1) ? 1 : opacity;
 		if(opacity >= 0 && opacity <= 1) {
